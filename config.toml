@@ -1,4 +1,4 @@
-baseURL = "gethugothemes.com"
+baseURL = "https://nolski.github.io/example-librecorps-site/"
 theme = "dot-hugo-documentation-theme"
 publishDir = "docs"
 
