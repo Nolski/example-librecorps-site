@@ -1,18 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://nolski.github.io/example-librecorps-site/en/sitemap.xml</loc>
-		
-	   	<lastmod>2018-12-29T11:02:05+06:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://nolski.github.io/example-librecorps-site/fr/sitemap.xml</loc>
-		
-	   	<lastmod>2018-12-29T11:02:05+06:00</lastmod>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/ai/milestone-roadmap/</loc>
+    <lastmod>2019-09-03T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/ai/traps/</loc>
+    <lastmod>2019-09-03T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/ai/model-card/</loc>
+    <lastmod>2019-09-03T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/community/reading-list/</loc>
+    <lastmod>2019-09-03T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/legal/cla/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/product-management/preliminary-interview-template/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/</loc>
+    <lastmod>2019-09-03T11:02:05+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/product-management/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/ai/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/community/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/legal/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/outreach/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/tooling/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/contact/</loc>
+    <lastmod>2018-12-27T09:10:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/elements/</loc>
+    <lastmod>2018-12-27T09:10:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/faq/</loc>
+    <lastmod>2018-12-27T09:10:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolski.github.io/example-librecorps-site/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

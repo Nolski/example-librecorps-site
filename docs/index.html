@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us"><head>
+<html lang="en"><head>
   <meta charset="utf-8">
   <title>LibreCorps Resources</title>
 
@@ -50,7 +50,7 @@
             <div class="container mb-100">
                 <!-- navigation -->
                 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="https://nolski.github.io/example-librecorps-site/en">LibreCorps</a>
+  <a class="navbar-brand" href="https://nolski.github.io/example-librecorps-site/">LibreCorps</a>
   <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
     aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -59,7 +59,7 @@
   <div class="collapse navbar-collapse text-center" id="navigation">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link text-dark" href="https://nolski.github.io/example-librecorps-site/en">Home</a>
+        <a class="nav-link text-dark" href="https://nolski.github.io/example-librecorps-site/">Home</a>
       </li>
       
       
@@ -82,13 +82,17 @@
         </a>
         <div class="dropdown-menu" >
           
-          <a class="dropdown-item" href="https://nolski.github.io/example-librecorps-site/elements">Elements</a>
-          
           <a class="dropdown-item" href="https://nolski.github.io/example-librecorps-site/community">Community Strategy</a>
           
           <a class="dropdown-item" href="https://nolski.github.io/example-librecorps-site/product-management">FOSS Product Management</a>
           
           <a class="dropdown-item" href="https://nolski.github.io/example-librecorps-site/ai">AI Ethics &amp; Transparency</a>
+          
+          <a class="dropdown-item" href="https://nolski.github.io/example-librecorps-site/tooling">Tooling &amp; Automation</a>
+          
+          <a class="dropdown-item" href="https://nolski.github.io/example-librecorps-site/outreach">Outreach &amp; Marketing</a>
+          
+          <a class="dropdown-item" href="https://nolski.github.io/example-librecorps-site/legal">Legal</a>
           
         </div>
       </li>
@@ -100,34 +104,10 @@
       
       
       
-      
-      
-      
-      
-      
-      
-      
-      <option id="fr" value="/example-librecorps-site/fr/">Fr</option>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <option id="en" value="/example-librecorps-site/" selected>En
-      </option>
-      
-      
-      
-      
-      
-      
     </select>
   </div>
 </nav>
+
                 <!-- /navigation -->
             </div>
         <!-- banner -->
@@ -144,45 +124,39 @@
             var projects = [
                 
                 {
+                    value: "AI Ethics \x26 Transparency Roadmap Template",
+                    label: "AI Ethics \x26 Transparency Roadmap Template",
+                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/ai\/milestone-roadmap\/"
+                },
+                
+                {
+                    value: "Common Traps When Building AI Systems",
+                    label: "Common Traps When Building AI Systems",
+                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/ai\/traps\/"
+                },
+                
+                {
+                    value: "Machine Learning Model Card",
+                    label: "Machine Learning Model Card",
+                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/ai\/model-card\/"
+                },
+                
+                {
+                    value: "Open Source Reading List",
+                    label: "Open Source Reading List",
+                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/community\/reading-list\/"
+                },
+                
+                {
                     value: "Contributors License Agreements",
                     label: "Contributors License Agreements",
-                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/community\/cla\/"
+                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/legal\/cla\/"
                 },
                 
                 {
                     value: "Preliminary Interview Template",
                     label: "Preliminary Interview Template",
                     url:"https:\/\/nolski.github.io\/example-librecorps-site\/product-management\/preliminary-interview-template\/"
-                },
-                
-                {
-                    value: "Linux",
-                    label: "Linux",
-                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/ai\/linux\/"
-                },
-                
-                {
-                    value: "Mac OS",
-                    label: "Mac OS",
-                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/ai\/mac\/"
-                },
-                
-                {
-                    value: "Routing",
-                    label: "Routing",
-                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/ai\/routing\/"
-                },
-                
-                {
-                    value: "Ubuntu",
-                    label: "Ubuntu",
-                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/ai\/ubuntu\/"
-                },
-                
-                {
-                    value: "Windows",
-                    label: "Windows",
-                    url:"https:\/\/nolski.github.io\/example-librecorps-site\/ai\/windows\/"
                 },
                 
             ];
@@ -227,25 +201,49 @@
             
             <div class="col-lg-4 col-sm-6 mb-4">
               <a href="https://nolski.github.io/example-librecorps-site/product-management/" class="px-4 py-5 bg-white shadow text-center d-block">
-                <i class="ti-panel icon text-dark d-block mb-4"></i>
+                <i class="ti-agenda icon text-dark d-block mb-4"></i>
                 <h3 class="mb-3">Product Management</h3>
-                <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+                <p class="mb-0">Here, you can find resources related to managing product development.</p>
               </a>
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4">
               <a href="https://nolski.github.io/example-librecorps-site/ai/" class="px-4 py-5 bg-white shadow text-center d-block">
-                <i class="ti-package icon text-dark d-block mb-4"></i>
+                <i class="ti-eye icon text-dark d-block mb-4"></i>
                 <h3 class="mb-3">AI Ethics &amp; Transparency</h3>
-                <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+                <p class="mb-0">Begin developing a more ethical, transparent, and safe AI system with these resources.</p>
               </a>
             </div>
             
             <div class="col-lg-4 col-sm-6 mb-4">
               <a href="https://nolski.github.io/example-librecorps-site/community/" class="px-4 py-5 bg-white shadow text-center d-block">
-                <i class="ti-credit-card icon text-dark d-block mb-4"></i>
+                <i class="ti-world icon text-dark d-block mb-4"></i>
                 <h3 class="mb-3">Community Strategy</h3>
-                <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+                <p class="mb-0">Using these resources, you can build a comprehensive plan towards developing a community strategy.</p>
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <a href="https://nolski.github.io/example-librecorps-site/legal/" class="px-4 py-5 bg-white shadow text-center d-block">
+                <i class="ti-envelope icon text-dark d-block mb-4"></i>
+                <h3 class="mb-3">Legal</h3>
+                <p class="mb-0">All resources related to the legal aspects of open source work.</p>
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <a href="https://nolski.github.io/example-librecorps-site/outreach/" class="px-4 py-5 bg-white shadow text-center d-block">
+                <i class="ti-announcement icon text-dark d-block mb-4"></i>
+                <h3 class="mb-3">Outreach &amp; Marketing</h3>
+                <p class="mb-0">How do you manage the outward communication for your project? Find out here.</p>
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <a href="https://nolski.github.io/example-librecorps-site/tooling/" class="px-4 py-5 bg-white shadow text-center d-block">
+                <i class="ti-infinite icon text-dark d-block mb-4"></i>
+                <h3 class="mb-3">Tooling &amp; Automation</h3>
+                <p class="mb-0">Tools, guides, and how-to&#39;s for automating your open source projects</p>
               </a>
             </div>
             
