@@ -1,6 +1,8 @@
 baseURL = "https://nolski.github.io/example-librecorps-site/"
 theme = "dot-hugo-documentation-theme"
 publishDir = "docs"
+defaultContentLanguage = "en"
+home = "/"
 
 [params]
 primaryColor = "#02007e"
@@ -15,7 +17,7 @@ whiteColor = "#ffffff"
   [Languages.en]
   languageName = "En"
   weight = 1
-  languageCode = "en-us"
+  languageCode = "en"
   title = "LibreCorps Resources"
   dateFormat = "2 January 2006"
   home = "Home"
@@ -43,12 +45,6 @@ whiteColor = "#ffffff"
 
           [[Languages.en.menu.main]]
           parent = "pages"
-          name = "Elements"
-          url = "elements"
-          weight = 1
-
-          [[Languages.en.menu.main]]
-          parent = "pages"
           name = "Community Strategy"
           url = "community"
           weight = 2
@@ -64,6 +60,24 @@ whiteColor = "#ffffff"
           name = "AI Ethics & Transparency"
           url = "ai"
           weight = 4
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Tooling & Automation"
+          url = "tooling"
+          weight = 5
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Outreach & Marketing"
+          url = "outreach"
+          weight = 6
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Legal"
+          url = "legal"
+          weight = 7
 
 
 
